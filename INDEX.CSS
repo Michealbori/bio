@@ -1,0 +1,64 @@
+.image 
+{
+    display: flex;
+    justify-content: center;
+}
+.image img
+{
+    border-radius: 50%;
+    height: 50%;
+    width: 30%;
+}
+
+.my_button 
+{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+.my_button button
+{
+        border: none;
+        padding: 0.8em;
+        border-radius: 2em;
+        font-family: georgia;
+        font-weight: 700;
+}
+.tbg
+{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(15,15,181,1) 57%, rgba(0,212,255,1) 100%);
+}
+.ibg
+{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.wbg
+{
+    background: rgb(105,180,58);
+    background: linear-gradient(90deg, rgba(105,180,58,1) 0%, rgba(48,253,29,1) 50%, rgba(69,252,173,1) 100%);
+}
+.name
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    font-size: 1.2em;
+    font-family: "sarif";
+}
+
+
+
+
+
+
+.curved {
+    position: relative;
+    background: #D3D3D3;
+    height: 50vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+  }

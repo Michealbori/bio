@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+*{
+
+   box-sizing: border-box;
+
+}
+
+body{
+
+   font-family: 'Mulish', sans-serif;
+   
+   display: flex;
+   
+   justify-content: center;
+   
+   align-items: center;
+
+}
+
+hr{
+
+   background-color: #666;
+
+   width: 80%;
+
+   height: .004rem;
+
+   border: none;
+
+   border-radius: 1rem;
+
+}
+
+.cvDiv{
+
+   padding: 0;
+
+   margin: auto;
+
+   display: flex;
+
+   flex-direction: row;
+   
+   align-self: center;
+
+   width: auto;
+
+}
+
+.sideInfo{
+   
+   flex-basis: 200px;
+
+   height: auto;
+
+   padding: .7rem;
+
+   display: flex;
+
+   flex-direction: column;
+
+   background-color: #ff8080;
+
+}
+
+.left{
+
+   color: #fefefe;
+
+}
+
+.mainInfo{
+   
+   flex-basis: 300px;
+
+   height: auto;
+
+   padding: .7rem;
+
+   display: flex;
+
+   flex-direction: column;
+
+   background-color: #fefefe;
+
+}
+
+.right{
+
+   color: #000;
+
+}
+
+.idenSect{
+
+   display: flex;
+
+   flex-direction: column;
+
+   align-items: center;
+
+   text-align: center;
+
+}
+
+img{
+
+   width: 25vw;
+
+   height: 25vw;
+
+   border-radius: 50%;
+
+   padding: 0;
+
+   margin: 0;
+
+}
+
+.contactSect, .eduSect, .profileSect, .exprSect, .skillSect{
+
+   margin-bottom: 1rem;
+
+}
+
+.contactDiv{
+
+   line-height: 1rem;
+
+}
+
+.eduSect{
+
+   display: flex;
+
+   flex-direction: column;
+
+}
+
+.eduDiv{
+
+   line-height: normal;
+
+}
+
+.langSect{
+
+   display: flex;
+
+   flex-direction: column;
+
+   line-height: 1rem;
+
+}
+
+.exprRow{
+
+   display: flex;
+
+   flex-direction: row;
+
+   flex-wrap: nowrap;
+
+   padding-bottom: .8rem;
+
+}
+
+.exprRow1{
+
+   width: 100%;
+
+}
+
+.exprRow2{
+   
+   width: 100%;
+}
+
+.skillDiv{
+
+   display: flex;
+
+   flex-direction: row;
+
+   justify-content: space-between;
+   
+   align-items: center;
+
+   padding-bottom: .8rem;
+
+}
+
+.interestRow{
+
+   display: flex;
+
+   flex-direction: row;
+
+   justify-content: space-between;
+
+}
+
+.headerOne{
+
+   font-size: 2vw;
+
+   font-weight: 900;
+
+}
+
+.headerTwo{
+
+   font-size: 2vw;
+
+   font-weight: 900;
+
+}
+
+.headerThree{
+
+   font-size: 2vw;
+
+   font-weight: 100;
+
+}
+
+.normalText{
+
+   font-size: 2vw;
+   
+   line-height: normal;
+
+}
+
+.smallTextLeft{
+
+   color: #30b6e4;
+
+   font-size: 2vw;
+
+}
+
+.smallTextRight{
+
+   color: #000;
+
+   font-size: 2vw;
+
+   padding-right: 1rem;
+
+   text-align: justify;
+
+   word-break: keep-all;
+
+}
+
+.lilBold{
+
+   font-weight: 600;
+
+}
+
+.bold{
+
+   font-weight: 900;
+
+}
+
+.justify{
+   
+   text-align: justify;
+   
+   text-justify: auto;
+}
+
+.fullWidthLeft{
+
+   width: 100%;
+
+   height: .1rem;
+
+   background-color: #000;
+
+}
+
+.progWidthLeft{
+
+   height: .1rem;
+
+   border-radius: 0 .5rem .5rem 0;
+
+   background-color: #30b6e4;
+
+}
+
+.fullWidthRight{
+
+   width: 50%;
+
+   height: .4rem;
+
+   margin-left: 1rem;
+
+   background-color: #f1f1f1;
+
+}
+
+.progWidthRight{
+
+   height: .4rem;
+
+   border-radius: 0 .5rem .5rem 0;
+
+   background-color: #30b6e4;
+
+}
+
+.material-icons{
+
+   font-size: 2vw;
+
+   color: #30b6e4;
+
+}
+
+.material-icons.iconLeft{
+
+   padding-right: .4rem;
+
+}
+
+.material-icons.iconRight{
+
+   padding-right: .3rem;
+
+}
+
+.iconAlign .material-icons{
+
+   vertical-align: middle;
+
+}
+
+@media only screen and (min-width: 768px) {
+   
+   .cvDiv{
+      
+      margin: 7rem;
+      
+      height: auto;
+      
+   }
+   
+   .sideInfo, .mainInfo{
+      
+      padding: 1rem;
+      
+   }
+   
+   img{
+      
+      width: 18vw;
+      
+      height: 18vw;
+      
+   }
+   
+   .sideInfo{
+      flex-basis: 350px;
+   }
+   
+   .mainInfo{
+      flex-basis: 600px;
+   }
+   
+   .smallTextLeft{
+      font-size: 1.5vw;
+   }
+   
+}
